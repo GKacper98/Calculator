@@ -76,8 +76,8 @@ switch(operator) {
     case ':':
     result = b / a;
     break;
-    case '2^':
-    result = b ** a;
+    case 'x^':
+    result = a ** b;
     break;
 }
 
